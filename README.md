@@ -134,7 +134,7 @@ The script automates the manual process of finding, downloading and extracting t
 To create a new Proxmox Home Assistant OS VM, run the following in the Proxmox Shell
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/aq18507/Proxmox/blob/05e8c94b4e58ca5c5143e025169bf28a8849c9af/vm/haos-vm-v4.sh)"
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/aq18507/Proxmox/main/vm/haos-vm-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  4GB RAM - 32GB Storage - 2vCPU - Stable Image⚡</h3>
  
